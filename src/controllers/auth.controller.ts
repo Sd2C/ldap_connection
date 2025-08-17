@@ -5,7 +5,7 @@ import { asyncHandler } from '../utils/errorHandler';
 
 export class AuthController {
   private ldapService: LdapService;
-
+  let k = 10
   constructor() {
     this.ldapService = new LdapService();
   }
